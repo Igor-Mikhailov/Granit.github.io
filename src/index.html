@@ -12,14 +12,14 @@
 <body>
 
 	<div class="mobile-navigation">
-		<nav>
+		<nav id="mobile-navigation">
 			<ul>
-				<li><a href="">Главная</a></li>
-				<li><a href="">Каталог</a></li>
-				<li><a href="">Услуги</a></li>
+				<li><a href="#header">Главная</a></li>
+				<li><a href="#catalog">Каталог</a></li>
+				<li><a href="#services">Услуги</a></li>
 				<li><a href="">Доставка</a></li>
-				<li><a href="">О компании</a></li>
-				<li><a href="">Контакты</a></li>
+				<li><a href="#footer">О компании</a></li>
+				<li><a href="#footer">Контакты</a></li>
 				<div class="navigation__objects">
 					<div class="phone">
 						<h4>8 800 342-13-33</h4>
@@ -55,19 +55,19 @@
 	</header>
 	<section class="navigation">
 		<div class="wrapper">
-			<nav>
+			<nav id="navigation">
 				<ul>
-					<li><a href="">Главная</a></li>
-					<li><a href="">Каталог</a></li>
-					<li><a href="">Услуги</a></li>
+					<li><a href="#header">Главная</a></li>
+					<li><a href="#catalog">Каталог</a></li>
+					<li><a href="#services">Услуги</a></li>
 					<li><a href="">Доставка</a></li>
-					<li><a href="">О компании</a></li>
-					<li><a href="">Контакты</a></li>
+					<li><a href="#footer">О компании</a></li>
+					<li><a href="#footer">Контакты</a></li>
 				</ul>
 			</nav>
 		</div>
 	</section>
-	<section class="first-section">
+	<section class="first-section" id="header">
 		<div class="wrapper">
 			<div class="first-section__inner">
 				<h1>БЫСТРАЯ ДОСТАВКА</h1>
@@ -80,7 +80,7 @@
 			</div>	
 		</div>
 	</section>
-	<section class="second-section">
+	<section class="second-section" id="catalog">
 		<div class="wrapper">
 			<div class="second-section__elements">
 				<h3>ВСЕГДА В НАЛИЧИИ</h3>
@@ -95,7 +95,7 @@
 					<div class="element">
 						<img src="img/sheben.png" alt="">
 						<h4>Щебень</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ipsa soluta blanditiis pariatur exercitationem.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ipsa soluta blanditiis pariatur.</p>
 						<h4>от 330 р./т</h4>
 						<a href="#">Подробнее</a>
 					</div>
@@ -177,28 +177,28 @@
 			</div>
 		</div>
 	</section>
-	<section class="fifth-section">
+	<section class="fifth-section" id="services">
 		<div class="wrapper">
 			<div class="fifth-section__elements">
 				<h3>НАШИ УСЛУГИ</h3>
 				<div class="flexbox">
-					<div class="element">
+					<a class="element" href="#">
 						<img src="img/самосвал.png" alt="">
 						<h4>Аренда самосвала</h4>
-					</div>
-					<div class="element">
+					</a>
+					<a class="element" href="#">
 						<img src="img/бульдозер.png" alt="">
 						<h4>Аренда спецтехники</h4>
-					</div>
-					<div class="element">
+					</a>
+					<a class="element" href="#">
 						<img src="img/трактор.png" alt="">
 						<h4>Рытье траншеи</h4>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="sixth-section">
+	<section class="sixth-section" id="footer">
 		<div class="wrapper">
 			<div class="sixth-section__inner">
 				<div class="block">
@@ -246,6 +246,22 @@
 			</div>
 		</div>
 	</footer>
+
+<!-- 	<div class="modal">
+	<div class="modal-content">
+		<div class="modal-header">
+			<h4>Заполните форму заявки</h4>
+			<span>&times;</span>
+		</div>
+		<div class="modal-body">
+			<p>Введите ваше имя</p>
+			<input type="text">
+		</div>
+		<div class="modal-footer">
+			
+		</div>
+	</div>
+</div> -->
 
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
